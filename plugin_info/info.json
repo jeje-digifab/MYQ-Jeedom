@@ -1,21 +1,13 @@
 {
 	"id" : "myQ",
 	"name" : "myQ",
-	/*"specialAttributes" : {
-		"object" : {
-			"toto" : {"name" : {"fr_FR" : "Plop je suis un attribut spécial"},"type" : "input"},
-			"toto2" : {"name" : {"fr_FR" : "Plop je suis un attribut spécial number"},"type" : "number"}
-		},
-		"user" : {
-			"toto" : {"name" : {"fr_FR" : "Plop je suis un attribut spécial"},"type" : "select","values" : [{"value" : "1", "name" : "valeur 1"},{"value" : "plop", "name" : "valeur plop"}]}
-		}
-	},*/
-	"description" : {
+		"description" : {
 		"fr_FR": "Plugin pour piloter les portes de garage MYQ avec Jeedom"
 	},
 	"licence" : "AGPL",
 	"author" : "Jérôme",
 	"require" : "4.2",
+	"version": "Béta",
 	"category" : "devicecommunication",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
@@ -29,24 +21,14 @@
 		"video" : "Lien vers une video"
 	},
 	"language": [
-		"fr_FR",
-		/*"en_US",
-		"es_ES",
-		"de_DE",
-		"ru_RU",
-		"id_ID",
-		"it_IT",
-		"ja_JP",
-		"pt_PT" */
+		"fr_FR"
 	],
 	"compatibility": [
-		/*"miniplus",
 		"smart",
 		"rpi",
 		"docker",
 		"diy",
-		"mobile",
 		"v4",
-		"atlas" */
+		"atlas"
 	]
 }
